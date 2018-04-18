@@ -1,13 +1,14 @@
 #zahlenraten.py
 
 import random
-zufallszahl = random.randint(1,100)
+zufallszahl = random.randint(1,10)
+versuch = False
 # Benutzer soll die Zahl vom Computer erraten
-while (True):
+while (versuch == False):
     versuch = input("Geben Sie ihre schätzung ein: ")
-    if(versuch == zufallszahl):
+    if(int(versuch) == zufallszahl):
         print("Gratulation")
-        break
+        
     else:
         print("Versuchen Sie es erneut")
     
