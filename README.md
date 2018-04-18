@@ -8,10 +8,10 @@
   + git config --global user.email <email>
   + git config --list (Konfiguration anzeigen)
  + mit git arbeiten
-  + git status
-  + git add <dateien>
-  + git commit -m "commit message"
-  + git push (wenn man das repository von einem Server geklont hat)
-  + git clone <URL von repository>
+    + git status
+    + git add <dateien>
+    + git commit -m "commit message"
+    + git push (wenn man das repository von einem Server geklont hat)
+    + git clone <URL von repository>
   
   ### Python Grundlagen
