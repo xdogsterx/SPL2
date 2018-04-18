@@ -7,13 +7,18 @@ for i in range(1,n+1):
     else:
         print(i)
 
-n
+
 for i in range(1,n+1):
     # alle ungeraden Zahlen von 1 bis n ausgeben
     if (i % 2):
-        print (i, "ist ungerade")
-    # alle geraden Zahlen von 1 bis n ausgebe
-    
+        print (i, end=" ")
+
+print("")
+
+for i in range(1,n+1):
+    # alle geraden Zahlen von 1 bis n ausgeben
+    if (i % 2 == 0):
+        print (i, end=" ")
     
     
 # alle Zahlen von 1 bis n ausgeben, die durch 9 teilbar sind
