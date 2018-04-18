@@ -14,6 +14,6 @@ for i in range(1,n+1):
         print (i, "ist ungerade")
     # alle geraden Zahlen von 1 bis n ausgebe
     
-        
     
-# alle Zahlen von 1 bis n ausgeben, die durch 9 teilbar sinds
+    
+# alle Zahlen von 1 bis n ausgeben, die durch 9 teilbar sind
